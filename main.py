@@ -1,5 +1,5 @@
 import cenas
-ilgums=int(input("Kurš līguma gads: "))
+ilgums=int(input("Līguma termiņš: "))
 iepr_sk=float(input("Iepriekšējā skaitītāja rādījums: "))
 esos_sk=float(input("Esošā skaitītāja rādījums: "))
 print("Patērētas",cenas.paterets(iepr_sk,esos_sk),"kWh")
